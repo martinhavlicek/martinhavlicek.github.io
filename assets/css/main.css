@@ -375,14 +375,14 @@ input, select, textarea {
 		width: 100%;
 	}
 
-		#main:before {
+		/*#main:before {
 			content: '';
 			display: inline-block;
 			height: 100%;
 			margin-right: 0;
 			vertical-align: middle;
 			width: 1px;
-		}
+		}*/
 
 /* Header */
 
