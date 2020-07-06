@@ -232,7 +232,7 @@ input, select, textarea {
 		left: 0;
 		opacity: 1;
 		position: fixed;
-		top: 20;
+		top: 0;
 	}
 
 	@-moz-keyframes bg {
