@@ -371,7 +371,7 @@ input, select, textarea {
 		left: 0;
 		position: fixed;
 		text-align: center;
-		top: 50%;
+		top: 0;
 		width: 100%;
 	}
 	#main:before {
