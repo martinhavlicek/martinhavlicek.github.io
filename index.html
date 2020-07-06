@@ -1,18 +1,52 @@
+<!DOCTYPE HTML>
+
 <html>
-  <title>
-    First website
-  </title>
-  
-  <body>
-    <h1>This is my first github page</h1>
-  </body>
-  
-  <style>
-    body {
-      background-color:green;
-      color:#fff;
-      text-align:center;
-    }
-  </style>
-  
+	<head>
+		<title>noorsajid</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1 style="color:white">Martin Havlicek</h1>
+						 <!--p style="color:white">&nbsp;&bull;&nbsp; neurogenesis &nbsp;&bull;&nbsp;</p-->
+						 <blockquote style="color:white;text-align:center;">
+						 	<br>
+
+						 	"Text <br>
+						 	Text."
+      					 	<br>-  
+      					 <!--<i style="text-align:center;">Zora Neale Hurston</i></blockquote>-->
+						<nav style="color:white;">
+							<ul>
+								<!--li><a href="character.html" class="icon fa-female"><span class="label">website</span></a></li-->
+								<li><a href="https://twitter.com/model_fMRI" class="icon fa-twitter"><span class="label">twitter</span></a></li>
+								<!--li><a href="https://github.com/ucbtns" class="icon fa-github"><span class="label">github</span></a></li-->
+								<!--li><a href="https://www.linkedin.com/in/noor-s-7b8004153/" class="icon fa-linkedin"><span class="label">linkedin</span></a></li-->
+								<li><a href="mailto:havlicekmartin@gmail.com" class="icon fa-envelope-o"><span class="label">email</span></a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright;"><p style="text-align:left;padding:15px;color:white">&copy; Martin Havlicek 2020</p> </span>
+					</footer>
+
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
 </html>
