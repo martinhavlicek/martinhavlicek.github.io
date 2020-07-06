@@ -371,18 +371,17 @@ input, select, textarea {
 		left: 0;
 		position: fixed;
 		text-align: center;
-		vertical-align: middle;
+		top: 50%;
 		width: 100%;
 	}
-
-	/*	#main:before {
+	#main:before {
 			content: '';
 			display: inline-block;
 			height: 100%;
 			margin-right: 0;
 			vertical-align: middle;
-			width: ;
-		}*/
+			width: 0px;
+		}
 
 /* Header */
 
