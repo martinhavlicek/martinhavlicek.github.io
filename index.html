@@ -11,6 +11,37 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	
+   		 <title>Sliding Background</title> 
+   		 <style> 
+      		  .wrapper { 
+           		 overflow: hidden; 
+      			  } 
+  
+      			  .sliding-background { 
+            background: url( 
+"images/web_bg_re.png")  
+            repeat-x; 
+            height: 961px; 
+            width: 6000px; 
+            animation: slide 60s linear infinite; 
+        } 
+  
+        @keyframes slide { 
+            0% { 
+                transform: translate3d(0, 0, 0); 
+            } 
+  
+            100% { 
+                transform: translate3d(-2000px, 0, 0); 
+            } 
+        } 
+    </style> 
+
+  
+
+		
+		
 	</head>
 	<body class="is-preload">
 
@@ -87,6 +118,9 @@
 					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
 				}
 			</script>
-
+		
+   		        <div class="wrapper"> 
+       			    <div class="sliding-background"></div> 
+  		        </div> 
 	</body>
 </html>
